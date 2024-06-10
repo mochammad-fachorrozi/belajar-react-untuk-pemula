@@ -1,0 +1,30 @@
+apa itu react ?
+- sebuah library javascript untuk membuat antarmuka pengguna(ui) yg interaktif
+- antarmuka pengguna adalah elemen pada layar yang dapat dilihat dan berinteraksi dengan user
+- disebut library karena menyediakan fungsi-fungsi untuk membangun UI, tapi terserah developer untuk menggunakan fungsinya
+- relatif un-opinionated (cara penggunaannya tidak terlalu diatur)
+- menyebabkan ekosistem-nya berkembang
+- tools pihak ketiganya banyak
+
+jsx 
+- jsx adalah ekstensi sintaks untuk javascript yg daoat mendeskripsikan UI dengan sintaks seperti HTML
+- sintaks jsx terlihat seperti HTML, tapi lebih strict dalam penulisannya dan bisa menampilkan informasi yg dinamis
+- untuk penulisannya, ada 3 hal aturan jsx yg harus diingat : 
+    1. harus selalu mengembalikan 1 elemen (menggunakan <> )
+    2. selalu tutup semua tag
+
+komponen
+- komponen pada react pada dasarnya adalah function pada javascript
+- nama function ditulis diawali huruf besar
+- function mengembalikan elemen UI yang akan dijadikan komponen dan ditulis dengan jsx
+- dipanggil sebagai tag HTML saat di-render
+
+komponen bersarang
+- sebuah aplikasi biasanya terdapat banyak komponen
+- misalkan memasukan kpmponen header ke dalam komponen homepage
+
+props
+- di html, kita bisa menggunakan atribut untuk mengubah perilaku dari sebuah elemen
+- contoh : atribut src didalam elemen img bisa mengubah sumber gambar yg akan ditampilkan
+- kita bisa mengirimkan properti sebagai informasi untuk sebuah komponen yg disebut dengan props
+- props ditangkap sebagai object kompoenen dibuat

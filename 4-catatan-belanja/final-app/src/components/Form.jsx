@@ -5,6 +5,7 @@ export default function Form({ onAddItem }) {
   const [quantity, setQuantity] = useState(1);
 
   function handleSubmit(e) {
+    // mematikan fungsi default browser (refresh)
     e.preventDefault();
 
     if (!name) return;
